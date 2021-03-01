@@ -22,6 +22,7 @@ class App extends Component {
   }
 
   handleChange = (e) => {
+    console.log('gg');
     this.setState({ searchField: e.target.value });
   };
 
